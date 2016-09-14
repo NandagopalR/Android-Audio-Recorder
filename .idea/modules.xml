@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-audio-recorder.iml" filepath="$PROJECT_DIR$/android-audio-recorder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android-library/android-library.iml" filepath="$PROJECT_DIR$/android-library/android-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
