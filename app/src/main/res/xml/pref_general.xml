@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.axet.androidlibrary.widgets.StoragePathPreference
+        android:defaultValue="Audio Recorder"
+        android:key="storage_path"
+        android:summary="/sdcard/some/"
+        android:title="Storage Path" />
+
+    <ListPreference
+        android:defaultValue="16000"
+        android:entries="@array/sample_rate_text"
+        android:entryValues="@array/sample_rate_values"
+        android:key="sample_rate"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="44100"
+        android:title="Sample Rate" />
+
+    <ListPreference
+        android:defaultValue="wav"
+        android:entries="@array/encodings_text"
+        android:entryValues="@array/encodings_values"
+        android:key="encoding"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Output file formats (.wav, .m4a, ...)"
+        android:title="Encoding" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="call"
+        android:summary="Stop recording on answering and continue on hangup"
+        android:title="Pause recording during calls" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="silence"
+        android:summary="Put phone in 'silence mode' during recording"
+        android:title="Silence mode" />
+
+    <ListPreference
+        android:defaultValue="Theme_White"
+        android:entries="@array/themes_text"
+        android:entryValues="@array/themes_values"
+        android:key="theme"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="Set application theme (dark / light)"
+        android:title="Application Theme" />
+
+</PreferenceScreen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/status_bar_latest_event_content"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:background="?android:windowBackground">
+
+    <ImageView
+        android:layout_width="@dimen/notification_large_icon_width"
+        android:layout_height="@dimen/notification_large_icon_height"
+        android:src="@drawable/ic_mic_24dp"
+        android:tint="?android:attr/colorForeground" />
+
+    <LinearLayout
+        android:id="@+id/notification_main_column"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginLeft="@dimen/notification_large_icon_width"
+        android:layout_marginStart="@dimen/notification_large_icon_width"
+        android:layout_marginTop="5dp"
+        android:minHeight="@dimen/notification_large_icon_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notification_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio Recorder"
+                android:textColor="?android:attr/colorForeground" />
+
+            <TextView
+                android:id="@+id/notification_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio Recorder"
+                android:textColor="?android:attr/textColorHint"
+                android:textSize="@dimen/notification_subtext_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/notification_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pause" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

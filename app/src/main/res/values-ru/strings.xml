@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Аудио Рекордер</string>
+
+    <string-array name="themes_text">
+        <item>Тема Светлая (по умолчанию)</item>
+        <item>Тема Темная</item>
+    </string-array>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (по умолчанию)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (телефон)</item>
+    </string-array>
+
+    <string-array name="encodings_text">
+        <item>.wav (по умолчанию)</item>
+        <item>.m4a</item>
+    </string-array>
+
+    <string name="title_activity_main">Аудио Рекордер</string>
+    <string name="action_settings">Настройки</string>
+    <string name="not_permitted">Доступ запрещен</string>
+    <string name="no_folder_app">Программа для просмотра папок не установлена</string>
+    <string name="file_not_found">Файл не найден</string>
+    <string name="shared_via">"Создано с помощью: %1$s"</string>
+    <string name="rename_recording">Переименовать запись</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="delete_recording">Удалить запись</string>
+    <string name="hold_by_call">пауза (звонок)</string>
+    <string name="encoding">кодировка</string>
+    <string name="pause">пауза</string>
+    <string name="edit">редактор</string>
+    <string name="confirm_cancel">Отменить запись</string>
+    <string name="are_you_sure_cancel">Вы уверены?</string>
+    <string name="recording">запись</string>
+    <string name="encoding_title">Кодирование...</string>
+    <string name="recording_title">Запись</string>
+    <string name="db">дБ</string>
+    <string name="days_symbol">д</string>
+    <string name="title_header">%1$s свободно ~ %2$s</string>
+    <string name="size_gb">%1$.1f ГБ</string>
+    <string name="size_mb">%1$.1f МБ</string>
+    <string name="size_kb">%1$.1f кб</string>
+    <string name="rename">Переименовать</string>
+    <string name="delete">Удалить</string>
+    <string name="open_recording_folder">Открыть папку с записями</string>
+    <string name="recording_list_is_empty">Список записей пуст.\n\nНажмите на \'Микрофон\' чтобы начать запись.</string>
+
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня </item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+</resources>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Audio Recorder</string>
+
+    <string-array name="sample_rate_text">
+        <item>48 kHz</item>
+        <item>44.1 kHz (CD)</item>
+        <item>32 kHz</item>
+        <item>22 kHz</item>
+        <item>16 kHz (default)</item>
+        <item>11 kHz</item>
+        <item>8 kHz (telephone)</item>
+    </string-array>
+
+    <string-array name="sample_rate_values" translatable="false">
+        <item>48000</item>
+        <item>44100</item>
+        <item>32000</item>
+        <item>22050</item>
+        <item>16000</item>
+        <item>11025</item>
+        <item>8000</item>
+    </string-array>
+
+    <string-array name="encodings_text">
+        <item>.wav (default)</item>
+        <item>.m4a</item>
+    </string-array>
+
+    <string-array name="encodings_values" translatable="false">
+        <item>wav</item>
+        <item>m4a</item>
+    </string-array>
+
+    <string-array name="themes_text">
+        <item>Theme White (default)</item>
+        <item>Theme Dark</item>
+    </string-array>
+
+    <string-array name="themes_values" translatable="false">
+        <item>Theme_White</item>
+        <item>Theme_Dark</item>
+    </string-array>
+
+    <string name="title_activity_main">Audio Recorder</string>
+    <string name="action_settings">Settings</string>
+    <string name="not_permitted">Not permitted</string>
+    <string name="no_folder_app">No folder view application installed</string>
+    <string name="file_not_found">File not found</string>
+    <string name="shared_via">"Shared via %1$s"</string>
+    <string name="rename_recording">Rename Recording</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_sure">"Are you sure ? "</string>
+    <string name="delete_recording">Delete Recording</string>
+    <string name="hold_by_call">pause (hold by call)</string>
+    <string name="encoding">encoding</string>
+    <string name="pause">pause</string>
+    <string name="edit">edit</string>
+    <string name="confirm_cancel">Confirm cancel</string>
+    <string name="are_you_sure_cancel">Are you sure you want to cancel?</string>
+    <string name="recording">recording</string>
+    <string name="encoding_title">Encoding...</string>
+    <string name="recording_title">Recording</string>
+    <string name="db">dB</string>
+    <string name="days_symbol">"d"</string>
+    <string name="title_header">%1$s free ~ %2$s left</string>
+    <string name="size_gb">%1$.1f GB</string>
+    <string name="size_mb">%1$.1f MB</string>
+    <string name="size_kb">%1$.1f kb</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="open_recording_folder">Open Recording Folder</string>
+    <string name="recording_list_is_empty">Recording List is Empty\n\nClick Record to Start Recording</string>
+
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+</resources>

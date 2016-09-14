@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleColor" format="color" />
+    <attr name="secondBackground" format="color" />
+    <attr name="roundButton" format="reference" />
+</resources>
